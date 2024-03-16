@@ -1,0 +1,81 @@
+/* Zasady projektowania
+Rodzina czcionek: Cormorant, serif
+Kolor tła: #f8f7f4
+Kolor tekstu: black
+Maksymalna szerokość: 1200px 
+Zawartość strony wyśrodkowana za pomocą margin: 0 auto
+Dla obrazków w galerii zastosuj object-fit: cover
+Zastosuj dowolny efekt :hover na obrazkach w galerii
+
+Pamiętaj o wykorzustaniu display: block, inline-block
+*/
+
+body {
+    font-family: Cormorant, serif;
+    background-color: #f8f7f4;   
+}
+
+.contener {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    border-bottom: 1px solid black;
+}
+.navbar {
+    padding: 20px;
+}
+
+section {
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.about h3{
+width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.footer {
+    display: inline-block;
+}
